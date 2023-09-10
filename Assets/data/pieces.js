@@ -2,7 +2,7 @@
 function blackPawn(current_position) {
   return {
     current_position,
-    img: Assets/images/pieces/black/pawn.png",
+    img: "Assets/images/pieces/black/pawn.png",
     pieceName: "BLACK_PAWN",
   };
 }
@@ -10,7 +10,7 @@ function blackPawn(current_position) {
 function blackBishop(current_position) {
   return {
     current_position,
-    img: Assets/images/pieces/black/bishop.png",
+    img: "Assets/images/pieces/black/bishop.png",
     pieceName: "BLACK_BISHOP",
   };
 }
