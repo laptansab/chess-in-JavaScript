@@ -1,0 +1,35 @@
+* {
+    background: #302e2b;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+.squareRow {
+    display: flex;
+    justify-content: center;
+}
+
+.square{
+    width: 75px;
+    height: 75px;
+}
+
+.white {
+    background-color: #eeeed2;
+}
+
+.black {
+    background-color: #769656;
+}
+
+.piece {
+    width: 75px;
+    background: transparent;
+}
+
+.piece:hover{
+cursor:grab;
+}
